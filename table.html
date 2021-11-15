@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 양식 만들기</title>
+    <style>
+        td>button:nth-child(1){
+            background-color: rgb(98, 96, 214);
+            border-top-color:rgb(162, 162, 238) ;
+            border-left-color:rgb(162, 162, 238) ;
+            border-bottom-color: cornflowerblue;
+            border-right-color: cornflowerblue;
+        }
+        td>button:nth-child(2){
+            background-color: rgb(212, 92, 44);
+            border-top-color:rgb(199, 81, 13) ;
+            border-left-color:rgb(233, 28, 28) ;
+            border-bottom-color: rgb(221, 51, 28);
+            border-right-color: rgb(209, 41, 19);
+        }
+    </style>
+</head>
+<body>
+    <!-- table -->
+    <table border='1'>
+        <thead>
+            <tr>
+                <th><input type ='checkbox'></th>
+                <th>[상품번호] 상품명</th>
+                <th>판매가격</th>
+                <th>공급가격</th>
+                <th>수정/삭제</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th><input type ='checkbox'></th>
+                <td>[3] 럭셔리 머플러 세트 니트 GR</td>
+                <td>10,100</td>
+                <td>1000</td>
+                <td><button>수정</button><button>삭제</button></td>
+            </tr>
+            <tr>
+                <th><input type ='checkbox'></th>
+                <td>[1] 더블유닷WX8MU5840</td>
+                <td>84,000</td>
+                <td>1000</td>
+                <td><button>수정</button><button>삭제</button></td>
+            </tr>
+            <tr>
+                <th><input type ='checkbox'></th>
+                <td>[2] 더블유닷WX8WT8410</td>
+                <td>72,000</td>
+                <td>1000</td>
+                <td><button>수정</button><button>삭제</button></td>
+            </tr>
+            <tr>
+                <th><input type ='checkbox'></th>
+                <td>[12] 올리브데올리브OW8AE3380</td>
+                <td>118,000</td>
+                <td>1000</td>
+                <td><button>수정</button><button>삭제</button></td>
+            </tr>
+            <tr>
+                <th><input type ='checkbox'></th>
+                <td>[11] 올리브데올리브OW8AE3380</td>
+                <td>168,000</td>
+                <td>1000</td>
+                <td><button>수정</button><button>삭제</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
